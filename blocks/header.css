@@ -1,4 +1,5 @@
 .header {
+  z-index: 1;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
