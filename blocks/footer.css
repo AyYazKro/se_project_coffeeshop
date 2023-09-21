@@ -53,12 +53,15 @@
 }
 
 .footer__social-link {
-  transition: color 0.3s ease-in-out;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
   gap: 10px;
 }
 
 .footer__social-link:hover {
   color: #c1c1c1;
+  transition: color 0.3s ease-in-out;
 }
 
 .footer__copyright {
