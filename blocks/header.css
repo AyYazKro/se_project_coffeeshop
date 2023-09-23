@@ -43,6 +43,7 @@
   line-height: 72px;
   color: #2f80ed;
 }
+
 .header__image {
   z-index: -1;
   position: absolute;
@@ -56,6 +57,7 @@
   justify-content: space-between;
   margin-top: auto;
 }
+
 .header__paragraph {
   font-weight: 500;
   font-family: "Inter", Arial, sans-serif;
