@@ -3,14 +3,14 @@
 }
 
 .form__fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .form__label {
-  margin: 0 auto 8px;
+  display: block;
+  margin-bottom: 32px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -19,11 +19,21 @@
 }
 
 .form__input {
-  align-self: center;
-  line-height: 60px;
+  display: block;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 8px;
   border-radius: 4px;
-  width: 385px;
-  margin-bottom: 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  height: 60px;
+  text-indent: 20px;
+  border: 1px solid;
 }
 
 .form__label_type_datetime-local {
@@ -31,7 +41,6 @@
 }
 
 .form__input::placeholder {
-  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -41,7 +50,7 @@
 
 .form__button {
   opacity: 1;
-  background-color: rgb(47, 128, 237);
+  background-color: #2f80ed;
   height: 60px;
   width: 385px;
   font-family: Inter, Arial, sans-serif;
@@ -62,9 +71,10 @@
   border-radius: 2px;
   width: 20px;
   height: 20px;
-  margin-right: 12px;
 }
 
 .form__label_checkbox {
   display: flex;
+  justify-content: center;
+  gap: 12px;
 }
