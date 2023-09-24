@@ -20,7 +20,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 20px;
 }
 
 .form__input {
@@ -65,6 +65,7 @@
   line-height: 20px;
   border-radius: 4px;
   margin: 0px auto 32px;
+  border: none;
 }
 
 .form__button:hover {
