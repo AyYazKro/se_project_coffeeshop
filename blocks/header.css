@@ -59,6 +59,8 @@
 }
 
 .header__paragraph {
+  position: relative;
+  display: flex;
   font-weight: 500;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -66,4 +68,5 @@
   line-height: 20px;
   margin: 0;
   color: #6f6f6f;
+  align-items: flex-end;
 }
